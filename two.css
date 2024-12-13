@@ -1,0 +1,174 @@
+.container-fluid {
+    background-color: rgb(243, 133, 210) !important;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav1 {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.nav2 {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+#home{
+    height: fit-content;
+    width: 100%;
+}
+
+.home11 .homeimg {
+    border-radius: 50%;
+
+}
+
+.home2 h1 {
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    color: black;
+    /* Dark text for better readability */
+    text-align: center;
+    font-weight: 700;
+}
+
+.home2 h1 span {
+    color: rgb(223, 15, 153);
+}
+
+.home2 p {
+    margin-bottom: 2rem;
+    font-size: x-large;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.home3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.home3 .btn {
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: black;
+    background-color: rgb(243, 133, 210);
+    /* Dark button background */
+    border-radius: 5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.home3 .btn:hover {
+    background-color: rgb(221, 218, 218);
+    /* Light background on hover */
+}
+
+.home3 a {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: black;
+    background-color: rgb(243, 133, 210);
+    border-radius: 5rem;
+}
+
+.home3 a:hover {
+    color: black;
+    background-color:rgb(221, 218, 218);
+}
+
+#skills{
+    height: fit-content;
+    width: 100%;
+    background-color:  rgb(243, 197, 232);
+}
+
+.skills1{
+    width: 800px;
+}
+
+.progress-bar{
+    background-color: rgb(228, 41, 156);
+}
+
+.card img{
+    height: 250px;
+    width: 100%;
+}
+
+.probtn{
+    background-color: rgb(243, 133, 210);
+}
+
+.card{
+    border: 2px solid rgb(194, 42, 118);
+    box-shadow: 1px 1px 2px 2px rgb(233, 167, 200);
+}
+
+#education{
+    background-color:  rgb(240, 155, 220);
+}
+
+.education2{
+    border: 2px solid rgb(194, 42, 118);
+    background-color: rgb(241, 217, 229);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px rgb(194, 42, 118);
+}
+
+#education .education2:hover{
+    animation-name: eduani;
+    animation-duration: 2s;
+    bottom: 10px;
+    transition: bottom 3s;
+}
+
+@keyframes eduani{
+    from{
+        bottom: 5px;
+    }
+    to{
+        bottom: 10px;
+    }
+}
+
+#contact{
+    background-color:  rgb(243, 197, 232);
+}
+
+.last{
+    background-color: black;
+    color: white;
+}
+
+.contact1{
+    border: 2px solid rgb(182, 32, 137);
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.conbtn{
+    background-color: rgb(233, 115, 197);
+}
+
+.contact22{
+    font-size: 30px;
+    background-color:rgb(247, 227, 238) ;
+    border-radius: 50%;
+}
+
